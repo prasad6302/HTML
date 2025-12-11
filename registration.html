@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+
+    <style>
+        body{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .container{
+            width: 420px;
+            background-color: white;
+            border: 1px solid grey;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .title{
+            color: blue;
+            text-align: center;
+        }
+        .name{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        input{
+            width: 100%;
+            height: 30px;
+            margin-top: 8px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            padding: 5px;
+        }
+        .gender-box{
+            display: flex;
+            justify-content: space-around;
+        }
+        .gender{
+            border: 1px solid grey;
+            width: 120px;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .signup{
+            height: 40px;
+            width: 300px;
+            margin-top: 10px;
+            border-radius: 8px;
+            background-color: green;
+            border: none;
+            color: white;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="title">facebook</h1>
+
+        <form class="container">
+            <div style="text-align: center;">
+                <h2>Create a new account</h2>
+                <p>It's quick and easy</p>
+            </div>
+            <hr>
+
+            <section class="name">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </section>
+
+            <p>Gender</p>
+            <section class="gender-box">
+                <label class="gender">Female 
+                    <input type="radio" name="gender">
+                </label>
+                <label class="gender">Male 
+                    <input type="radio" name="gender">
+                </label>
+                <label class="gender">Custom 
+                    <input type="radio" name="gender">
+                </label>
+            </section>
+
+            <input type="email" placeholder="Enter your email address">
+            <input type="password" placeholder="New password">
+
+            <div style="display: flex; justify-content:center">
+                <button type="submit" class="signup">Sign Up</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
