@@ -166,10 +166,99 @@
 
 
 
+// console.log(true||false&& true);
+
+// console.log(!true && false || true);
+
+// console.log(null && 55);
+
+// console.log('asd' && 'asdf' && 'hello');//hello
+
+// console.log(!!'');
 
 
 
+// for( let i = 1; i<=100; i++){
+//     if (i % 5 == 0 && i % 3 == 0){
+//         console.log('Fizzbuzz');
+        
+//     }else if(i % 5 == 0 ){
+//         console.log('Fizz');
+        
+//     }else if(i % 3 == 0){
+//         console.log('Buzz');
+        
+//     }else{
+//         console.log(i);
+        
+//     }
+// }
 
 
+// console.log(wish('Prasad'));
+
+// function wish(name){
+//     return `Hello, Welcome ${name}`
+// }
+
+// console.log(greet("Prasad"));
+
+// const greet = function (name){
+//     return `Hello, welcome ${name}`
+// }
+
+// console.log(greet("Prasad"));
+// const greet = (name)=> `Hello, welcome ${name}`
+// console.log(greet("Prasad"));
 
 
+// function validate(username,password){
+//     const user = {
+//         username: 'admin',
+//         password:'pass123'
+//     }
+//         if ( user.username === username &&  user.password === password){
+//             console.log("Login success...");
+            
+//         }else{
+//             console.log('Login failed...');
+            
+//         }
+// }
+
+// validate('admin','pass123')
+// validate('adin','pass123')
+
+// let fruits = ['apple','banana','cherry','dates']
+// fruits.pop()
+// console.log(fruits);
+
+// fruits.push('mango')
+// console.log(fruits);
+
+// closures : a function remembers variables from it's outer scope, even after the outer function finished the execution.
+
+
+// function outer(){
+//     let secrete = 'I am secrete'
+//     function inner(){
+//         console.log(secrete);
+        
+//     }
+//     return inner;
+    
+
+// }
+// let mycloser = outer()
+// mycloser() 
+
+// callback is a function that is passed to another function as a argument is called callback
+
+
+// function cal(a,b,operation){
+//     return operation(a,b)
+// }
+// function add(x,y){
+//     return x + y
+// }
+// console.log(cal(2,3,add));
