@@ -262,3 +262,14 @@
 //     return x + y
 // }
 // console.log(cal(2,3,add));
+
+
+// Objects
+// Object is a collection of related data,function which is stored in key-value pair.
+
+// const student = {
+//     name:'Prasad',
+//     age:21
+// }
+// console.log(student.name);
+
